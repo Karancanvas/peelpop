@@ -1,0 +1,35 @@
+PEELPOP — UPLOAD TO GITHUB
+
+This ZIP contains the COMPLETE source project.
+
+1. Extract this ZIP.
+2. Open your GitHub repository.
+3. Choose Add file > Upload files.
+4. Drag everything inside the extracted folder into the upload page.
+5. CRITICAL: Make sure .github/workflows/deploy-pages.yml is included.
+   Your previous upload skipped this hidden folder, which made GitHub publish
+   the README instead of the website. On macOS, press Command + Shift + .
+   before dragging the files so .github and .openai are visible.
+6. Commit the upload to the main branch.
+7. Open Settings > Pages and set Source to GitHub Actions.
+
+Your website will be published at:
+https://karancanvas.github.io/peelpop/
+
+Local development:
+
+  npm install --global pnpm@11.25.0
+  pnpm install
+  pnpm dev
+
+Then open http://localhost:5173
+
+Optional audio files:
+
+  public/audio/background-music.mp3
+  public/audio/notification.mp3
+
+The site remains fully usable when these files are not present.
+
+Created by Karan Sethi
+https://karansethi.xx.kg

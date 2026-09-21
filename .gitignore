@@ -1,0 +1,11 @@
+node_modules/
+.next/
+.wrangler/
+dist/
+out/
+.DS_Store
+.env
+.env.*
+!.env.example
+tsconfig.tsbuildinfo
+.openai/
